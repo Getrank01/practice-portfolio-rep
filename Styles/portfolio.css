@@ -1,0 +1,44 @@
+/**common share */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.mary {
+  color: #fd6e0a;
+}
+
+.primary-btn {
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  border: 0;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  padding: 15px 15px;
+}
+
+/**nav */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.web-title {
+  font-size: 45px;
+  font-weight: 800;
+  color: #181818;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
